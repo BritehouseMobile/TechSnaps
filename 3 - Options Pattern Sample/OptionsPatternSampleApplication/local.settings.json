@@ -1,0 +1,31 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+    // Email Service
+    "EmailSettings:HostDetails:Host": "smtpauth.example.com",
+    "EmailSettings:HostDetails:Port": 787,
+    "EmailSettings:HostDetails:UseSSL": true,
+    "EmailSettings:Credentials:Username": "Pat.Clifton",
+    "EmailSettings:Credentials:Password": "Postman",
+    "EmailSettings:SenderEmail": "no-reply@example.com",
+
+
+    // FTP Service
+    "FTPSettings:HostDetails:Host": "ftpauth.example.com",
+    "FTPSettings:HostDetails:Port": 785,
+    "FTPSettings:HostDetails:UseSSL": true,
+    "FTPSettings:Credentials:Username": "File.Master",
+    "FTPSettings:Credentials:Password": "AnotherPassword",
+    "FTPSettings:DefaultDirectory": "c:\\ftpTempDirectory",
+
+    "FTPSettings:DirectoryOperations:Images:Directory": "\\assets\\images",
+    "FTPSettings:DirectoryOperations:Images:Operations:[0]": "READ",
+
+    "FTPSettings:DirectoryOperations:Invoices:Directory": "\\invoices",
+    "FTPSettings:DirectoryOperations:Invoices:Operations:[0]": "READ",
+    "FTPSettings:DirectoryOperations:Invoices:Operations:[1]": "WRITE"
+  }
+}

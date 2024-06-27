@@ -1,0 +1,12 @@
+
+[TODO] Manual Capture - Only if Unallocated or has counts of NULL or 0
+
+
+[DONE] Assign Manager - Only to Unallocated or Mismatch stands
+[DONE] Redo Manual Capture
+[DONE] Fixed Mismatch colous on SKU Breakdown.
+[DONE] Stand Progress - Sku Level - Hide Assign buttons
+[DONE] Close Unassigned - Not working - NOTE: Needed to assign it to a manager (behind the scenes).
+[SKIP] Stand Progress - Closed stands show "-1" Count - NOTE: Unable to reproduce.
+[SKIP] Closed Stands - Not showing Closed Icon - NOTE: Unable to reproduce. 
+[SKIP] Closed Stands - Remove Assign buttons - NOTE: Unable to reproduce.
